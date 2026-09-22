@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables & secrets (NEVER commit this to GitHub!)
+.env
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Database & local dynamic storage
+src/data/guild-configs.json
+
+# Operating System files
+.DS_Store
+Thumbs.db

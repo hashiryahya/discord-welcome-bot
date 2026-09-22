@@ -1,0 +1,27 @@
+{
+  "name": "discord-welcome-bot",
+  "version": "1.0.0",
+  "description": "An advanced, modular Discord welcome bot featuring customizable embeds, interactive verification buttons, auto-roles, and slash commands.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord-js",
+    "welcome-bot",
+    "auto-role",
+    "slash-commands",
+    "moderation",
+    "anti-raid"
+  ],
+  "author": "Hashir Yahya",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  }
+}
